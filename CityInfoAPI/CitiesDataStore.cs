@@ -21,15 +21,15 @@ namespace CityInfoAPI
                     Id = 1,
                     Name = "New York",
                     Description = "Lorme ipsum, lorem ipsum and lorem ipsum.",
-                    PointsOfInterest = new List<PointOfInterestDTO>()
+                    PointsOfInterest = new List<PointOfInterest>()
                     {
-                        new PointOfInterestDTO()
+                        new PointOfInterest()
                         {
                             Id = 1,
                             Name = "Central Park",
                             Description = "Lorme ipsum, lorem ipsum and lorem ipsum." 
                         },
-                        new PointOfInterestDTO()
+                        new PointOfInterest()
                         {
                             Id = 2,
                             Name = "Empire State Building",
@@ -42,15 +42,15 @@ namespace CityInfoAPI
                     Id = 2,
                     Name = "Paris",
                     Description = "Lorme ipsum, lorem ipsum and lorem ipsum.",
-                    PointsOfInterest = new List<PointOfInterestDTO>()
+                    PointsOfInterest = new List<PointOfInterest>()
                     {
-                        new PointOfInterestDTO()
+                        new PointOfInterest()
                         {
                             Id = 1,
                             Name = "Central Park",
                             Description = "Lorme ipsum, lorem ipsum and lorem ipsum."
                         },
-                        new PointOfInterestDTO()
+                        new PointOfInterest()
                         {
                             Id = 2,
                             Name = "Empire State Building",
@@ -63,15 +63,15 @@ namespace CityInfoAPI
                     Id = 3,
                     Name = "Sydney",
                     Description = "Lorme ipsum, lorem ipsum and lorem ipsum.",
-                    PointsOfInterest = new List<PointOfInterestDTO>()
+                    PointsOfInterest = new List<PointOfInterest>()
                     {
-                        new PointOfInterestDTO()
+                        new PointOfInterest()
                         {
                             Id = 1,
                             Name = "Central Park",
                             Description = "Lorme ipsum, lorem ipsum and lorem ipsum."
                         },
-                        new PointOfInterestDTO()
+                        new PointOfInterest()
                         {
                             Id = 2,
                             Name = "Empire State Building",
